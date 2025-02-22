@@ -3,13 +3,13 @@ baseurl: ""
 url: "https://panagspirou.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Spasmeno kouti                                    # site's title
+title: Σπασμένο Κουτί                                    # site's title
 description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+avatar: assets/img/grey.svg                         # Empty for no avatar in navbar
+favicon: assets/grey-favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Hello there!  # Change Blog header text
+header_text: Αμφισβήτησε. Μάθε. Μοιράσου.  # Change Blog header text
 header_feature_image: assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
 footer_text: >
