@@ -2,3 +2,22 @@
 ---
 
 @import "type-on-strap";
+
+.site-header .site-title {
+  // line-height: 1em;
+  // font-family: "Pacifico","Source Sans Pro",Helvetica,Arial,sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, Aptos, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family--mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.call-out h1 {
+  // font-family: "Pacifico","Source Sans Pro",Helvetica,Arial,sans-serif;
+
+  --font-family: -apple-system, BlinkMacSystemFont, Aptos, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family--mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.content {
+  margin: auto;
+  max-width: 80rem;
+}
