@@ -52,6 +52,18 @@
     background-size: cover;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
+    // for the a links inside to work and make whole teaser card clickable: https://stackoverflow.com/a/74063425
+    position: relative;
+
+    .post-link::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+    }
+
     p a {
       @extend .body-link;
     }
